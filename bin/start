@@ -26,4 +26,4 @@ ${DOCKER_COMPOSE} \
     -f ${PROJECT_PATH}/docker-compose.yml \
     up -d    
 
-${DOCKER_COMPOSE} -f ${PROJECT_PATH}/docker-compose.api.yml logs -f
+${DOCKER_COMPOSE} -f ${PROJECT_PATH}/docker-compose.yml logs -f
