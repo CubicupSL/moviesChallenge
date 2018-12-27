@@ -10,15 +10,11 @@
       "type": "string",
       "required": true
     },
-    "synopsis": {
+    "overview": {
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "string",
-      "required": true
-    },
-    "category": {
+    "poster_path": {
       "type": "string",
       "required": true
     }
