@@ -1,0 +1,13 @@
+version: "3.0"
+services:
+  movies_api:
+    image: movies_api
+    container_name: movies_api
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: bash -c "npm install && node ."
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - "3010:3000"
